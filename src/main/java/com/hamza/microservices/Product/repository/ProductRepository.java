@@ -1,7 +1,7 @@
-package repository;
+package com.hamza.microservices.Product.repository;
 
 
-import model.Product;
+import com.hamza.microservices.Product.model.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ProductRepository extends MongoRepository<Product, String> {

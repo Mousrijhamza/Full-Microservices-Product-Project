@@ -1,4 +1,4 @@
-package model;
+package com.hamza.microservices.Product.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
