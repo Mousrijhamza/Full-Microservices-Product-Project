@@ -4,6 +4,7 @@ import com.hamza.microservices.Product.dto.ProductRequest;
 import com.hamza.microservices.Product.dto.ProductResponse;
 import com.hamza.microservices.Product.model.Product;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -14,7 +15,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor // c'est une annotation Lombock qui permet de faire
 //l'injection de dependance via un constructeur
-
+//@Slf4j
 public class ProductService {
     private static final Logger log = LoggerFactory.getLogger(ProductService.class);
 
